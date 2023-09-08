@@ -1,0 +1,219 @@
+
+
+.body { 
+    background-color: blueviolet;
+    width: 5000;
+}
+/* color al titulo*/
+
+#titulo {
+
+    color:orange
+    
+}
+
+
+/* color al las etiquetas de parrafo  con texto*/
+
+p.texto {
+
+    color:blue
+    ;
+}
+
+/* color a las etiquetas de cambio*/
+p.cambio {
+
+    color:rgb(9, 9, 10)
+}
+
+/* color a las etiquetas que estan dentro de div*/
+DIV P  {
+
+    color:aquamarine
+}
+
+div h1, div h3 {  
+    
+    color:brown }
+
+    /* color a  todo  los textos si no estan defenidas en ningun selector*/
+
+ /*{
+    font-size: 24px;
+    color:yellow
+
+ } */  
+
+ /* colocar cuadro o margen en texto*/
+
+ .color {
+
+   
+
+    /* ejemplos  dotted ,dashed ,solid ,double ,groove ,ridge , inset , outset , none , hidden */
+
+
+    /*  bordes personalizados */
+    border: 15px rgb(2400, 15, 15) ;
+    /*border-width: 10px; es para el anchp*/
+    border-style: solid;
+    border-color: rgb(66, 66, 80);
+    border-radius: 5px;  
+    border-width: 20;
+    color:black ;
+    
+
+    
+ }
+
+  /* color  de fondo  con imagen en una etiqueta   */
+
+ #fondo {
+
+    background-color:rgb(158, 108, 108) ;
+    background-image: url('CAMARA.JPG') ;
+    background-size: auto;
+    background-repeat: no-repeat;  /* repeat-x y repéat-y*/
+    background-position: center top; /*centrar imagen*/
+    height: 220px;  
+ }
+
+ /* MARGEN O BORDES*/
+
+ .margen {
+
+    background-color: burlywood;
+    margin:15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    border:  solid 10px yellow;
+    /*height: 100px;
+    width: 50px;*/
+    overflow: scroll;  /* colocar scroll para que la pantalla se pueda ver completa */
+    outline: 3px solid blue;
+ }
+
+ .texto1  {
+    text-align: justify;  /* salto de lineaas y espacios en texto */
+    text-align:  center;/* centrar texto*/
+    text-decoration: underline ; /* ageragr linea a los textos */
+    text-shadow: 3px 5px 5px blue; /* sombra*/
+    font-family: 'tangerine'; /* fuentes de texto ( puedes cargar fuentes desde google copiando el link en head del html*/
+    
+}
+
+/* es importante el orden   ( sirve para revisar las 4 funciones del link 1  no visitado 2 visitado 3 passaron el mouse 4 activo */
+ a:link {
+    color: rgb(233, 30, 47);
+ }
+
+ a:visited {
+    color: rgb(12, 9, 9);
+ }
+ 
+a:hover {
+
+    color: rgb(25, 231, 94);
+}
+
+a:active {
+
+    color: yellow
+}
+
+ul {
+    background-color: rgb(101, 41, 161);
+    list-style-type: circle;  /* quitar los puntos del ul*/
+   /* padding-left: 0;*/
+   /* list-style-position: inside;*/
+
+}
+
+table {
+
+    width: 100%;
+    border-collapse:collapse ; /* queita la separacion de entre las columnas*/
+}
+
+th,td {
+
+    border: solid 1px rgb(18, 19, 18);  /* columnas en color negro*/
+    padding: 5px;
+}
+
+/* diseño de encabezados*/
+th  {
+    background-color: red;
+    color : white;
+    text-align: center;
+
+}
+
+
+td {  text-align: left;}   /* alinear datos */
+
+ 
+/* marcar las filas con color / si  es por columna en espeecifico td:hover y si es toda la tabla table:hover */
+
+tr:hover {
+
+    background-color: gray;
+    cursor: pointer;  /* coloca la manita en la tabla*/
+
+}
+
+/*even par odd inpar  colocar color en columna */
+
+tr:nth-child(odd){
+    background-color: blue;
+}
+
+/*  span  los coloca en el mismo parrafo con display le ayudamos a colocarlo en otro parrafo*/
+span {
+    display: block;
+    color:rgb(252, 244, 244);
+    background-color: rgb(211, 45, 45);
+    max-width: 300px; /* si muebes el explorador ajustar se acomodara o ajustara*/
+
+}
+
+/* coloca en un mimso parrafo los div*/
+.inline  {
+    display: inline;
+}
+
+/* posision de textos fixed es flotante relative se movio 20 pixeles*/
+
+#position {
+    position: relative;
+    left :20px;
+   /* top: 25px; /* posiciona abajo*/
+
+}
+
+.left 
+{
+    float:left;
+ 
+}
+
+.right
+
+{
+    float: right;
+}
+
+.grupo-de-elementos {
+
+    float: right;
+    background-color: rgb(179, 22, 22);
+    
+}
+
+
+
+
+
+
+
+
